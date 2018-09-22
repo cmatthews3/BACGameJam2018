@@ -51,4 +51,8 @@ public class GameManager : MonoBehaviour {
 	void Update() {
 		
 	}
+
+	public void StartGame() {
+		StartCoroutine(Loading(1));
+	}
 }
