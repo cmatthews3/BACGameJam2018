@@ -113,6 +113,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &399304704 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1066726287731328, guid: d7a320295184bfb40a88e32cc9ec66b3,
+    type: 2}
+  m_PrefabInternal: {fileID: 941701979}
 --- !u!1001 &455475347
 Prefab:
   m_ObjectHideFlags: 0
@@ -157,6 +162,16 @@ Prefab:
       propertyPath: loadingScreen
       value: 
       objectReference: {fileID: 1918312113}
+    - target: {fileID: 114288159004492296, guid: db2c324a57caa1540832aaa4447cd85c,
+        type: 2}
+      propertyPath: pauseMenuScreen
+      value: 
+      objectReference: {fileID: 399304704}
+    - target: {fileID: 114288159004492296, guid: db2c324a57caa1540832aaa4447cd85c,
+        type: 2}
+      propertyPath: deathScreen
+      value: 
+      objectReference: {fileID: 1466192277}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: db2c324a57caa1540832aaa4447cd85c, type: 2}
   m_IsPrefabParent: 0
@@ -698,6 +713,27 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!1 &1453601926 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1070122276256650, guid: d7a320295184bfb40a88e32cc9ec66b3,
+    type: 2}
+  m_PrefabInternal: {fileID: 941701979}
+--- !u!114 &1453601927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1453601926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5769c5e9b86fc434fb32284ccc3d42f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1466192277 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1412193299980352, guid: d7a320295184bfb40a88e32cc9ec66b3,
+    type: 2}
+  m_PrefabInternal: {fileID: 941701979}
 --- !u!1 &1677691806
 GameObject:
   m_ObjectHideFlags: 0
