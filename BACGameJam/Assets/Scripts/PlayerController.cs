@@ -4,13 +4,16 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    public static PlayerController instance;
+
+    public float initHealth;
+    float _health;
+
+    private void Awake()
+    {
+        _health = initHealth;
+        if (instance == null) instance = this;
+
+        DontDestroyOnLoad(this.gameObject);
+    }
 }
