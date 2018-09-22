@@ -1,0 +1,296 @@
+fileFormatVersion: 2
+guid: eeca245eafce46b46a3f7d8700f10b3a
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Phidias_Left_Upper_Arm
+    21300002: Phidias_Head
+    21300004: Phidias_Left_Lower_Arm
+    21300006: Phidias_Torso
+    21300008: Phidias_Right_Upper_Arm
+    21300010: Phidias_Easter_EGG
+    21300012: Phidias_Waist
+    21300014: Phidias_Right_Lower_Arm
+    21300016: Phidias_Left_Upper_Leg
+    21300018: Phidias_Left_Lower_Leg
+    21300020: Phidias_Left_Foot
+    21300022: Phidias_Right_Foot
+    21300024: Phidias_Right_Lower_Leg
+    21300026: Phidias_Right_Upper_Leg
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Phidias_Left_Upper_Arm
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1564.5491
+        width: 235.58594
+        height: 454.59912
+      alignment: 9
+      pivot: {x: 0.49663392, y: 0.49923313}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Phidias_Head
+      rect:
+        serializedVersion: 2
+        x: 1469
+        y: 2004.423
+        width: 282.31445
+        height: 494.87048
+      alignment: 9
+      pivot: {x: 0.49590048, y: 0.50028646}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Phidias_Left_Lower_Arm
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 1097.6833
+        width: 543.3496
+        height: 393.38586
+      alignment: 9
+      pivot: {x: 0.49967828, y: 0.5015855}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Phidias_Torso
+      rect:
+        serializedVersion: 2
+        x: 1361.6113
+        y: 1324.6182
+        width: 573.9647
+        height: 631.7938
+      alignment: 9
+      pivot: {x: 0.4980945, y: 0.49918455}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Phidias_Right_Upper_Arm
+      rect:
+        serializedVersion: 2
+        x: 2709
+        y: 1458.5796
+        width: 291.98242
+        height: 461.04236
+      alignment: 9
+      pivot: {x: 0.4983177, y: 0.49869668}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Phidias_Easter_EGG
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 700.7973
+        width: 282.31445
+        height: 245.18634
+      alignment: 9
+      pivot: {x: 0.4976719, y: 0.50044674}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Phidias_Waist
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 615.82166
+        width: 876.89453
+        height: 628.5724
+      alignment: 9
+      pivot: {x: 0.49891973, y: 0.49903286}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Phidias_Right_Lower_Arm
+      rect:
+        serializedVersion: 2
+        x: 2642
+        y: 889.743
+        width: 428.9453
+        height: 414.32733
+      alignment: 9
+      pivot: {x: 0.49773243, y: 0.49901852}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Phidias_Left_Upper_Leg
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 71.97789
+        width: 261.36722
+        height: 551.2508
+      alignment: 9
+      pivot: {x: 0.49738437, y: 0.49799854}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Phidias_Left_Lower_Leg
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 71.97789
+        width: 295.20508
+        height: 643.0701
+      alignment: 9
+      pivot: {x: 0.49626517, y: 0.4984248}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Phidias_Left_Foot
+      rect:
+        serializedVersion: 2
+        x: 1137
+        y: 88.973015
+        width: 514.3457
+        height: 362.77954
+      alignment: 9
+      pivot: {x: 0.49771973, y: 0.49762172}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Phidias_Right_Foot
+      rect:
+        serializedVersion: 2
+        x: 1776.0001
+        y: 96.97071
+        width: 528.84753
+        height: 346.67087
+      alignment: 9
+      pivot: {x: 0.49919847, y: 0.49767455}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Phidias_Right_Lower_Leg
+      rect:
+        serializedVersion: 2
+        x: 2406.4453
+        y: 96.97071
+        width: 285.5371
+        height: 617.29626
+      alignment: 9
+      pivot: {x: 0.4852423, y: 0.49899748}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Phidias_Right_Upper_Leg
+      rect:
+        serializedVersion: 2
+        x: 2849
+        y: 96.97071
+        width: 337.0996
+        height: 533.5313
+      alignment: 9
+      pivot: {x: 0.498369, y: 0.49861985}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 100770772702640
+  assetBundleName: 
+  assetBundleVariant: 
