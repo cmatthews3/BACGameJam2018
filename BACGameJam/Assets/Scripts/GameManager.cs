@@ -12,9 +12,9 @@ public class GameManager : MonoBehaviour {
 	public GameObject pauseMenuScreen;
 	public GameObject deathScreen;
 	public GameObject loadingScreen;
-	public Slider loadingBar;
+	public GameObject mainMenuScreen;
 
-	public Text waveText;
+	//public Text waveText;
 
 	bool gameInPlay;
 
@@ -41,7 +41,6 @@ public class GameManager : MonoBehaviour {
 		AsyncOperation a = SceneManager.LoadSceneAsync(num);
 
 		while (!a.isDone) {
-			loadingBar.value = a.progress;
 			yield return new WaitForEndOfFrame();
 		}
 
@@ -49,10 +48,17 @@ public class GameManager : MonoBehaviour {
 	}
 
 	void Update() {
-		
+		if (gameInPlay == true) {
+			mainMenuScreen.SetActive(false);
+		}
 	}
 
 	public void StartGame() {
 		StartCoroutine(Loading(1));
+		gameInPlay = true;
+	}
+
+	public void QuitGame() {
+		Application.Quit();
 	}
 }

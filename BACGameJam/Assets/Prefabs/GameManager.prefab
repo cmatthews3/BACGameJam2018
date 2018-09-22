@@ -54,5 +54,4 @@ MonoBehaviour:
   pauseMenuScreen: {fileID: 0}
   deathScreen: {fileID: 0}
   loadingScreen: {fileID: 0}
-  loadingBar: {fileID: 0}
-  waveText: {fileID: 0}
+  mainMenuScreen: {fileID: 0}
