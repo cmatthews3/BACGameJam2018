@@ -18,11 +18,11 @@ public class EnemyController : MonoBehaviour {
         {
             //enemy attack
         }
-        else if (player.transform.position.z > transform.position.z)
+        else if (player.transform.position.z > transform.position.z + .2f)
         {
             transform.position += (groundPlane.transform.forward * vertSpeed) * Time.deltaTime;
         }
-        else if (player.transform.position.z < transform.position.z)
+        else if (player.transform.position.z < transform.position.z - .2f)
         {
             transform.position += (-groundPlane.transform.forward * vertSpeed) * Time.deltaTime;
         }

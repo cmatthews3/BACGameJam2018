@@ -1,0 +1,308 @@
+fileFormatVersion: 2
+guid: 4ad6c52e77015944bb4be1fcb306fbed
+timeCreated: 1537663581
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: rightArm
+    21300002: rightUpperArm
+    21300004: head
+    21300006: leftShoulder
+    21300008: leftLeg
+    21300010: StoneAgeEnemy_5
+    21300012: chest
+    21300014: StoneAgeEnemy_7
+    21300016: StoneAgeEnemy_8
+    21300018: rightLowerLeg
+    21300020: upperRightLeg
+    21300022: waist
+    21300024: upperLegLeft
+    21300026: lowerLegLeft
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: rightArm
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1326
+        width: 583
+        height: 776
+      alignment: 9
+      pivot: {x: 0.95522714, y: 0.93176144}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: rightUpperArm
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 1650
+        width: 445
+        height: 814
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2701764}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: head
+      rect:
+        serializedVersion: 2
+        x: 1377
+        y: 2062
+        width: 482
+        height: 465
+      alignment: 9
+      pivot: {x: 0.45056346, y: 0.06141528}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: leftShoulder
+      rect:
+        serializedVersion: 2
+        x: 2134
+        y: 1706
+        width: 551
+        height: 750
+      alignment: 9
+      pivot: {x: 0.27527854, y: 0.3640384}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: leftLeg
+      rect:
+        serializedVersion: 2
+        x: 2843
+        y: 1286
+        width: 301
+        height: 841
+      alignment: 9
+      pivot: {x: 0.5725941, y: 0.9070518}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: StoneAgeEnemy_5
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1443
+        width: 91
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: chest
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 1123
+        width: 736
+        height: 862
+      alignment: 9
+      pivot: {x: 0.42082977, y: 0.4662011}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: StoneAgeEnemy_7
+      rect:
+        serializedVersion: 2
+        x: 2829
+        y: 1378
+        width: 75
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: StoneAgeEnemy_8
+      rect:
+        serializedVersion: 2
+        x: 2919
+        y: 1265
+        width: 79
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: rightLowerLeg
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 25
+        width: 380
+        height: 822
+      alignment: 9
+      pivot: {x: 0.55750245, y: 0.8189911}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upperRightLeg
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 547
+        width: 314
+        height: 623
+      alignment: 9
+      pivot: {x: 0.73196274, y: 0.68705934}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: waist
+      rect:
+        serializedVersion: 2
+        x: 1271
+        y: 225
+        width: 723
+        height: 842
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: upperLegLeft
+      rect:
+        serializedVersion: 2
+        x: 2255
+        y: 587
+        width: 292
+        height: 546
+      alignment: 9
+      pivot: {x: 0.22561604, y: 0.8735195}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lowerLegLeft
+      rect:
+        serializedVersion: 2
+        x: 2794
+        y: 52
+        width: 434
+        height: 803
+      alignment: 9
+      pivot: {x: 0.24826176, y: 0.8900323}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
