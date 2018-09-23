@@ -4,8 +4,11 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
+[ExecuteInEditMode]
 public class GameManager : MonoBehaviour {
 
+	public float zDepth = 0.5f;
+	public float yOffset = 1;
 	public static GameManager instance;
 	public static GameManager register;
 
@@ -21,16 +24,12 @@ public class GameManager : MonoBehaviour {
 
 	void Awake() {
         if (instance == null) {
-			DontDestroyOnLoad(gameObject);
-			instance = this;
-			loadingScreen.SetActive(false);
-		}
-		else {
-			Destroy(gameObject);
-		}
-		pauseMenuScreen.SetActive(false);
-		deathScreen.SetActive(false);
-    }
+            instance = this;
+        }
+				if (pauseMenuScreen != null) {
+					pauseMenuScreen.SetActive(false);
+				}
+  }
 
 	public static void LoadScene (int num) {
 		instance.StartCoroutine(instance.Loading(num));
@@ -48,17 +47,7 @@ public class GameManager : MonoBehaviour {
 	}
 
 	void Update() {
-		if (gameInPlay == true) {
-			mainMenuScreen.SetActive(false);
-		}
-	}
-
-	public void StartGame() {
-		StartCoroutine(Loading(1));
-		gameInPlay = true;
-	}
-
-	public void QuitGame() {
-		Application.Quit();
+			Shader.SetGlobalFloat("_ZDepth", zDepth);
+			Shader.SetGlobalFloat("_YOffset", yOffset);
 	}
 }
