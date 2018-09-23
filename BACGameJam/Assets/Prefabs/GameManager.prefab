@@ -51,6 +51,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75dc3665db71829448ad530e95f966f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  zDepth: 0.5
+  yOffset: 1
   pauseMenuScreen: {fileID: 0}
   deathScreen: {fileID: 0}
   loadingScreen: {fileID: 0}

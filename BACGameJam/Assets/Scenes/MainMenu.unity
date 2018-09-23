@@ -303,62 +303,6 @@ Prefab:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 114026011319460810, guid: d7a320295184bfb40a88e32cc9ec66b3,
-        type: 2}
-      propertyPath: m_Text
-      value: Steam God Phidias
-      objectReference: {fileID: 0}
-    - target: {fileID: 224600582498469602, guid: d7a320295184bfb40a88e32cc9ec66b3,
-        type: 2}
-      propertyPath: m_AnchoredPosition.x
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 224600582498469602, guid: d7a320295184bfb40a88e32cc9ec66b3,
-        type: 2}
-      propertyPath: m_SizeDelta.x
-      value: -308.9
-      objectReference: {fileID: 0}
-    - target: {fileID: 114026011319460810, guid: d7a320295184bfb40a88e32cc9ec66b3,
-        type: 2}
-      propertyPath: m_FontData.m_Font
-      value: 
-      objectReference: {fileID: 12800000, guid: 4678cc4b3155e3c4d817809c83081a20,
-        type: 3}
-    - target: {fileID: 114026011319460810, guid: d7a320295184bfb40a88e32cc9ec66b3,
-        type: 2}
-      propertyPath: m_FontData.m_FontSize
-      value: 51
-      objectReference: {fileID: 0}
-    - target: {fileID: 114026011319460810, guid: d7a320295184bfb40a88e32cc9ec66b3,
-        type: 2}
-      propertyPath: m_FontData.m_MaxSize
-      value: 52
-      objectReference: {fileID: 0}
-    - target: {fileID: 224600582498469602, guid: d7a320295184bfb40a88e32cc9ec66b3,
-        type: 2}
-      propertyPath: m_AnchoredPosition.y
-      value: -8
-      objectReference: {fileID: 0}
-    - target: {fileID: 114893697122158792, guid: d7a320295184bfb40a88e32cc9ec66b3,
-        type: 2}
-      propertyPath: m_FontData.m_Font
-      value: 
-      objectReference: {fileID: 12800000, guid: 4678cc4b3155e3c4d817809c83081a20,
-        type: 3}
-    - target: {fileID: 114585578249899142, guid: d7a320295184bfb40a88e32cc9ec66b3,
-        type: 2}
-      propertyPath: m_FontData.m_Font
-      value: 
-      objectReference: {fileID: 12800000, guid: 4678cc4b3155e3c4d817809c83081a20,
-        type: 3}
-    - target: {fileID: 1481473904820484, guid: d7a320295184bfb40a88e32cc9ec66b3, type: 2}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1803892618710868, guid: d7a320295184bfb40a88e32cc9ec66b3, type: 2}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d7a320295184bfb40a88e32cc9ec66b3, type: 2}
   m_IsPrefabParent: 0
