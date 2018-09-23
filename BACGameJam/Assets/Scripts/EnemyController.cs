@@ -4,21 +4,57 @@ using UnityEngine;
 
 public class EnemyController : MonoBehaviour {
 
+    public enum State
+    {
+        move,
+        attack,
+        dead
+    };
+
+    public State state = State.move;
+
+    private bool dead;
     GameObject player;
     public float vertSpeed = 3;
     public float speed = 3;
     public GameObject groundPlane;
+    public Animator anim;
 
 	void Start () {
         player = PlayerController.instance.gameObject;
+        anim = GetComponent<Animator>();
+        state = State.move;
 	}
 	
 	void Update () {
-        if (Vector3.Distance(player.transform.position, transform.position) < .3f)
+        if (dead) {return;}
+
+        if (GetComponent<HealthController>().health <= 0)
         {
-            //enemy attack
+            state = State.dead;
         }
-        else if (player.transform.position.z > transform.position.z + .2f)
+
+        switch (state)
+        {
+            case State.move:
+                Move();
+                break;
+            case State.attack:
+                Attack();
+                break;
+            case State.dead:
+                Death();
+                break;
+        }     
+	}
+
+    void Move()
+    {
+        if (Vector3.Distance(player.transform.position, transform.position) < 2)
+        {
+            state = State.attack;
+        }
+        if (player.transform.position.z > transform.position.z + .2f)
         {
             transform.position += (groundPlane.transform.forward * vertSpeed) * Time.deltaTime;
         }
@@ -34,6 +70,22 @@ public class EnemyController : MonoBehaviour {
         {
             transform.position += (-groundPlane.transform.right * speed) * Time.deltaTime;
         }
+    }
 
-	}
+    void Attack()
+    {
+        anim.SetTrigger("attack");
+
+        if (Vector3.Distance(player.transform.position, transform.position) > 2)
+        {
+            state = State.move;
+            anim.SetTrigger("end");
+        }
+    }
+
+    void Death()
+    {
+        anim.SetTrigger("dead");
+        dead = true;
+    }
 }
