@@ -13,23 +13,57 @@ public class GameManager : MonoBehaviour {
 	public static GameManager register;
 
 	public GameObject pauseMenuScreen;
+	public GameObject deathScreen;
+	public GameObject loadingScreen;
+	public GameObject mainMenuScreen;
 
-	public Text waveText;
+	//public Text waveText;
 
 	bool gameInPlay;
 
 
 	void Awake() {
         if (instance == null) {
-            instance = this;
-        }
-				if (pauseMenuScreen != null) {
-					pauseMenuScreen.SetActive(false);
-				}
-  }
+			DontDestroyOnLoad(gameObject);
+			instance = this;
+			loadingScreen.SetActive(false);
+		}
+		else {
+			Destroy(gameObject);
+		}
+		pauseMenuScreen.SetActive(false);
+		deathScreen.SetActive(false);
+    }
+
+	public static void LoadScene (int num) {
+		instance.StartCoroutine(instance.Loading(num));
+	}
+
+	IEnumerator Loading (int num) {
+		loadingScreen.SetActive(true);
+		AsyncOperation a = SceneManager.LoadSceneAsync(num);
+
+		while (!a.isDone) {
+			yield return new WaitForEndOfFrame();
+		}
+
+		loadingScreen.SetActive(false);
+	}
 
 	void Update() {
 			Shader.SetGlobalFloat("_ZDepth", zDepth);
 			Shader.SetGlobalFloat("_YOffset", yOffset);
+		if (gameInPlay == true) {
+			mainMenuScreen.SetActive(false);
+		}
+	}
+
+	public void StartGame() {
+		StartCoroutine(Loading(1));
+		gameInPlay = true;
+	}
+
+	public void QuitGame() {
+		Application.Quit();
 	}
 }
