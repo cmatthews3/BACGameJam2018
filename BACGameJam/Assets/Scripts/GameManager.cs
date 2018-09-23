@@ -4,8 +4,11 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
+[ExecuteInEditMode]
 public class GameManager : MonoBehaviour {
 
+	public float zDepth = 0.5f;
+	public float yOffset = 1;
 	public static GameManager instance;
 	public static GameManager register;
 
@@ -20,10 +23,13 @@ public class GameManager : MonoBehaviour {
         if (instance == null) {
             instance = this;
         }
-		pauseMenuScreen.SetActive(false);
-    }
+				if (pauseMenuScreen != null) {
+					pauseMenuScreen.SetActive(false);
+				}
+  }
 
 	void Update() {
-		
+			Shader.SetGlobalFloat("_ZDepth", zDepth);
+			Shader.SetGlobalFloat("_YOffset", yOffset);
 	}
 }
